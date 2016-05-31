@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:pages="clr-namespace:Xamarin.Forms.Pages;assembly=Xamarin.Forms.Pages"
+		x:Class="XamDataPagesExample.ThirdPage"
+		Title="ListItem Control">
+	
+	<ContentPage.Content>
+		<ScrollView Padding="0">
+			<StackLayout Padding="0" Spacing="3">
+				<StackLayout.Children>
+					<pages:ListItemControl
+				        Detail="Integrador"
+				        ImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/Davi_Profile.jpg"
+				        Title="Davi Gomes"
+				        PlaceholderImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/info.png"
+				    />
+					<pages:ListItemControl
+				        Detail="Analista Sênior"
+				        ImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/Luis_Profile.jpg"
+				        Title="Luís Rio"
+				        PlaceholderImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/info.png"
+				    />
+					<pages:ListItemControl
+				        Detail="Especialista"
+				        ImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/Natasha_Profile.jpg"
+				        Title="Natasha Brasil"
+				        PlaceholderImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/info.png"
+				    />
+				</StackLayout.Children>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+	
+</ContentPage>

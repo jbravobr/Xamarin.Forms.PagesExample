@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:pages="clr-namespace:Xamarin.Forms.Pages;assembly=Xamarin.Forms.Pages"
+		x:Class="XamDataPagesExample.SecondPage"
+		Title="Hero Page">
+
+	<ContentPage.Content>
+		<ScrollView Padding="0">
+			<StackLayout Padding="0" Spacing="3">
+				<StackLayout.Children>
+					<pages:HeroImage
+							ImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/Davi_Profile.jpg"
+							Text="Davi Gomes"
+							Detail = "Integrador"
+							/>
+					
+					<pages:HeroImage
+							ImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/Luis_Profile.jpg"
+							Text="Luis Rio"
+							Detail = "Analista Sênior"
+							/>
+					
+					<pages:HeroImage
+							ImageSource="https://raw.githubusercontent.com/jbravobr/Demo/master/Natasha_Profile.jpg"
+							Text="Natasha Brasil"
+							Detail = "Especialista"
+							/>
+				</StackLayout.Children>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+	
+</ContentPage>
